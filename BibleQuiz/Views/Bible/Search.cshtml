@@ -1,0 +1,22 @@
+﻿<title>search Quiz</title>
+<h4>Search for Quiz</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="SearchQuiz"method="get">
+            <div class="form-group">
+                <label for="search" class="control-label"></label>
+                <input name="search" class="form-control" />
+            </div>
+          
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-outline-primary log" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

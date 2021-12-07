@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAbU0yTuZ5zkyL1WHsaroFyAAAAAACAAAAAAAQZgAAAAEAACAAAACXVAim9v4nGyGqZC0zPKQ7yjLkV2dgsWlw5q40c+qKMwAAAAAOgAAAAAIAACAAAAAhFkjnahR0WCNvxezRdJdgldSSTURdFK+GkYduKhVNxoAAAADp96uLbsIopGwQh+djbXxl4Cb922PHIQXSWew1aNpZupmXcPqSWR43oB3e2pGrk1IAP204jXe8uK9wB/qrE7kZ4hTPtM9HUzLNj4mgHSDGt/2os4cUKx6MEcEKymUXFxloJITv3RoSuzsQWzRYy/Upw5/oRzlp5vWJwUeX2m9gbUAAAACFHVMp2lGlmDQ79nqkb2QD0dP+gmIp8ljjhQthfLRT8VK+9zgerwyCKj1gRots3fB5Sk5iJE5E/iCqSmxbhDdv</EncryptedPassword>
+    <History>False|2021-11-16T21:53:08.8429989Z;False|2021-11-16T22:38:41.1885616+01:00;False|2021-11-16T22:27:14.7963378+01:00;False|2021-11-16T22:21:56.2786357+01:00;False|2021-11-16T22:14:45.3974214+01:00;False|2021-11-16T15:54:43.3665666+01:00;False|2021-11-16T15:46:02.1639082+01:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server= "davlibs-mysql1.mysql.database.azure.com"%3b Port=3306%3b Database= "davlibs-mysql1"%3b Uid= "PhilsKay%40davlibs-mysql1"%3b Pwd="%40Femyoyo1"%3b SslMode=Required%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BibleQuiz.Data.ApplicationDbContext">
+      <Value>Server= "davlibs-mysql1.mysql.database.azure.com"%3b Port=3306%3b Database= "davlibs-mysql1"%3b Uid= "PhilsKay%40davlibs-mysql1"%3b Pwd="%40Femyoyo1"%3b SslMode=Required%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
